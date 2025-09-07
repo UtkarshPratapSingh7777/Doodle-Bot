@@ -44,18 +44,23 @@ It uses image processing to convert digital images into coordinate-based instruc
 git clone https://github.com/UtkarshPratapSingh7777/Doodle-Bot.git
 cd Doodle-Bot
 pip install opencv-python
-
+```
 
 1. Upload sketch_nov11a.ino to your Arduino board via Arduino IDE.
 2. Run the Python script:
+  ```bash
   python Steel_Surgeons.py
-3. The bot will draw based on the generated coordinate path.
 ```
+3. The bot will draw based on the generated coordinate path.
+
 
 ### USAGE
 🎨 Usage
 
-1.Provide a digital image (preferably grayscale / line art).
-2.The Python script processes it into (x, y) coordinates.
-3.Coordinates are sent to Arduino via serial communication.
-4.The robot sketches the image using stepper/servo motors.
+1.Provide a digital image (preferably grayscale / line art)
+
+2.The Python script processes it into (x, y) coordinates
+
+3.Coordinates are sent to Arduino via serial communication
+
+4.The robot sketches the image using stepper/servo motors
